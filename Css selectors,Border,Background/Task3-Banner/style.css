@@ -1,0 +1,36 @@
+#banner {
+    background-color: saddlebrown;
+    height: 500px;
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color: rgb(209, 162, 98);;
+}
+.bodyText{
+    color:  #a26f41;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    margin: 0;
+    line-height: 500px;
+   
+}
+li {
+    padding: 10px;
+    display: inline;
+}
+#navBar {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+h2 {
+    padding-left: 20px;
+}
+#copyright {
+    padding-left: 20px ;
+}
