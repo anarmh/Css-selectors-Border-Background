@@ -1,0 +1,36 @@
+ html,
+ body {
+    height: 100%;
+    margin: 0;
+    
+ }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 10px;
+    }
+ .container {
+    height: 100%;
+    width: 100%;
+     background-color: #d2dada;
+     position: absolute;
+ }
+
+ .home {
+     text-decoration: none;
+ }
+
+ .tinycards {
+     color: #ff69b2;
+ }
+
+ p {
+     color: #ffc0ed;
+     background-color: #ff69b2;
+     border-radius: 2px solid;
+     border-style: solid;
+     border-width: thin;
+
+ }
+ .area{
+    padding: 10px;
+ }

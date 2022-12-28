@@ -1,0 +1,70 @@
+/* .intro{
+   background-color: green; 
+ } */
+
+/* .area{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .name1.name2{
+    background-color: blueviolet;
+   } */
+
+/* .intro #firstname{
+    color: brown;
+} */
+
+/* *{
+    background-color: blue;
+} */
+/* div .intro{
+    color: yellow;
+
+ } */
+/* div.intro{
+    color: brown;
+ } */
+/* h1,div{
+    color: blanchedalmond;
+ } */
+
+/* div div{
+    color: green;
+ } */
+/* div > p{
+    color: blueviolet;
+ } */
+/* .container{
+    margin-left: 650px;
+    margin-top: 100px;
+    width: 500px;
+    height:  500px;
+    border: 2px solid salmon;
+    border-radius: 50px;
+    background-image: url(Html\ img.jpg);
+    background-position-x: center;
+ } */
+.container {
+    background-image: url(./Html\ img.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1503;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    ;
+}
+
+.back-color {
+    height: 400px;
+    width: 1503;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+}
