@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212b2d;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+
+/* img */
+.img-globe {
+    width: 100%;
+    height: 390px;
+}
+
+.header {
+    position: relative;
+}
+
+.site-title {
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    color: #b8d1db;
+}
+
+.site-title h1 {
+    font-weight: normal;
+}
+/* img end */
+
+
+
+
+/* nav */
+nav {
+    margin-top: 5px;
+    background-color: #333d3f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b8d1db;
+}
+
+nav li {
+    padding: 0 70px;
+}
+
+nav li:nth-child(1),
+nav li:nth-child(2),
+nav li:nth-child(3),
+nav li:nth-child(4),
+nav li:nth-child(5) {
+    border-right: 1px solid white;
+}
+/* nav end */
+
+/* main */
+main {
+    display: flex;
+}
+/* main-left */
+.main-left {
+    width: 25%;
+    color: #6f787d;
+}
+
+.main-left a {
+    color: #6f787d;
+}
+
+.main-left h2 {
+    padding: 20px;
+}
+
+.main-left ul {
+    padding: 0 30px;
+}
+
+.main-left p {
+    padding: 0 30px;
+}
+
+.enter-block {
+    margin-bottom: 20px;
+}
+/* main-left end */
+
+
+/* main-right */
+.main-right {
+    width: 75%;
+    color: #6f787d;
+}
+
+.gallery h2 {
+    padding: 15px 0;
+    font-weight: normal;
+    border-bottom: 1px solid #6f787d;
+}
+
+.gallery p {
+    padding: 5px 0;
+}
+
+.sub-other {
+    display: flex;
+    margin-top: 25px;
+}
+
+.sub-other h2{
+    padding: 10px 0px;
+}
+
+.sub-other .sub {
+    width: 50%;
+    padding-right: 30px;
+    border-right: 1px solid #6f787d;
+}
+
+.sub-other .other {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.sub-other button {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #95aaac;
+    border: none;
+    font-weight: bold;
+}
+/* main-right end */
+/* main end*/
+
+/* footer */
+footer {
+    height: 40px;
+    text-align: center;
+    border-top: 1px solid #6f787d;
+    margin-top: 30px;
+}
+
+footer h5 {
+    padding: 15px;
+    font-weight: normal;
+    color: #6f787d;
+}
+/* footer end */
