@@ -112,4 +112,6 @@ footer{
     border-top: 3px solid #4faba5;
 }
 
+footer p{
+    padding-bottom: 30px;
 }
