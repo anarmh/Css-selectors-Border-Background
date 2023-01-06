@@ -1,19 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 .container{
-    width: 100vw;
-    height: 100vh;
     background-color: #333333;
 }
-.container h1{
-  
+.container .html-5{
+    display: flex;
+    align-items: center;
     padding: 15px 20px;
     color: #fdfdfd;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.container h1 span{
+
+.container h1 .span-5{
     color: #f3821c;
     font-size: 3vw;
    font-family:Arial, Helvetica, sans-serif
@@ -27,11 +29,11 @@ nav ul{
     display: flex;
 }
 nav ul li{
-    margin-top: 15px;
+    padding: 10px 0 10px 0;
     list-style-type: none;
     width: 90px;
+    height: 50px;
     border-right: 1px solid;
-    
 }
 nav ul li a{
     margin-left: 20px;
